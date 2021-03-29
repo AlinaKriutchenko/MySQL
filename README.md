@@ -97,6 +97,7 @@ SELECT * FROM F1_RESULTS_2020;
 ```
 DELETE FROM F1_RESULTS_2020 WHERE Place = 1;
 ```
+
 ### Replace values in the table
 ```
 #REPLACMENT
