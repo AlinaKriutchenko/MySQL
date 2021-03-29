@@ -14,3 +14,7 @@ CREATE TABLE F1_RESULTS_2020 (
     #Year INT(4) DEFAULT '2020'
 );
 ```
+
+
+
+![Screenshot](1-10.png)
