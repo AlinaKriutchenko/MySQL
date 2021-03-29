@@ -21,27 +21,27 @@ In this case avoid Year column when insert values and it will be ad
 Place INT,
 PRIMARY KEY(Place)
 ```
-## Auto filling:
+### Auto filling:
 ```
 Place INT AUTO_INCREMENT,
 ```
-## Select:
+### Select:
 ```
 SELECT * FROM FORMULA_1_2020;
 ```
 ![Screenshot](/Images/1-4.png)
 
-## Describe:
+### Describe:
 ```
 DESCRIBE FORMULA_1_2020;
 ```
 ![Screenshot](/Images/1-5.png)
 
-## To drop the table:
+### To drop the table:
 ```
 DROP TABLE FORMULA_1_2020;
 ```
-## Add columns:
+### Add columns:
 ```
 ALTER TABLE FORMULA_1_2020 ADD Points INT(3);
 ALTER TABLE FORMULA_1_2020 ADD Podiums INT(2);
@@ -52,17 +52,17 @@ SELECT * FROM F1_RESULTS_2020;
 ```
 ![Screenshot](/Images/1-7.png)
 
-## Drop the column
+### Drop the column
 ```
 ALTER TABLE FORMULA_1_2020 DROP COLUMN Haircolor;
 ```
 ![Screenshot](/Images/1-8.png)
-## Add new column after another column
+### Add new column after another column
 ```
 ALTER TABLE FORMULA_1_2020 ADD Nationality VARCHAR(30) AFTER Team;
 ```
 ![Screenshot](/Images/1-9.png)
-## Insert values into the table
+### Insert values into the table
 ```
 INSERT INTO F1_RESULTS_2020 VALUES(1, 'Lewis Hamilton', 'MERCEDES', 'Great Britain', 347, 14, 11);
 INSERT INTO F1_RESULTS_2020 VALUES(2, 'Valtteri Bottas', 'MERCEDES', 'FIN', 223, 11, 2);
@@ -93,11 +93,11 @@ INSERT INTO F1_RESULTS_2020 VALUES(23, 'Pietro Fittipaldi', 'HAAS FERRARI', 'BRA
 SELECT * FROM F1_RESULTS_2020;
 ```
 ![Screenshot](/Images/1-10.png)
-## If need to delete the first row
+### If need to delete the first row
 ```
 FROM F1_RESULTS_2020 WHERE Place = 1;
 ```
-## Replace values in the table
+### Replace values in the table
 ```
 #REPLACMENT
 UPDATE F1_RESULTS_2020
