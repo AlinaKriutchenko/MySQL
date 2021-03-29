@@ -17,8 +17,10 @@ CREATE TABLE F1_RESULTS_2020 (
 
 
 
-![Screenshot](1-4.png)
+![Screenshot](1-4.png | width=100)
 
 
 ![GitHub Logo](/images/1-4.png)
+
+
 Format: ![Alt Text](url)
