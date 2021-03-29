@@ -13,8 +13,9 @@ CREATE TABLE F1_RESULTS_2020 (
     #Year INT(4) DEFAULT '2020'
 );
 ```
-If you later need to combine this table with table from previous years. 
-In this case avoid Year column when insert values and it will be added automatically);
+In brackets you can define the number of symbols for every variable.
+The PRIMARY KEY identifies each record in a table and has unique values.
+VARCHAR used to store text and INT to store numerical values.
 
 ### Another way to define primary key:
 ```
@@ -93,7 +94,7 @@ INSERT INTO F1_RESULTS_2020 VALUES(23, 'Pietro Fittipaldi', 'HAAS FERRARI', 'BRA
 SELECT * FROM F1_RESULTS_2020;
 ```
 ![Screenshot](/Images/1-10.png)
-### If need to delete the first row
+### If you need to delete the first row
 ```
 DELETE FROM F1_RESULTS_2020 WHERE Place = 1;
 ```
@@ -110,6 +111,3 @@ WHERE Nationality = 'Great Britain'
 SELECT * FROM F1_RESULTS_2020;
 ```
 ![Screenshot](/Images/untitled.jpg)
-
-
-
