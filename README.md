@@ -3,7 +3,7 @@
 
 This tutorial covers MySQL basic functionality with the example of Formula 1 2020 Driver Standings table.
 
-## Create Table
+### Create Table
 
 ```
 CREATE TABLE F1_RESULTS_2020 (
@@ -16,7 +16,7 @@ CREATE TABLE F1_RESULTS_2020 (
 If you later need to combine this table with tables from previous years. 
 In this case avoid Year column when insert values and it will be added automatically);
 
-## Another way to define primary key:
+### Another way to define primary key:
 ```
 Place INT,
 PRIMARY KEY(Place)
