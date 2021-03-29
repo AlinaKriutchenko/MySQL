@@ -19,3 +19,12 @@ CREATE TABLE F1_RESULTS_2020 (
 
 ![Screenshot](/images/1-4.png)
 
+
+
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+
+![Alt text](/AlinaKriutchenko/MySQL/blob/main/1-4.png?raw=true "Optional Title")
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+
+https://github.com/AlinaKriutchenko/MySQL/blob/main/1-4.png
