@@ -15,14 +15,7 @@ CREATE TABLE F1_RESULTS_2020 (
 );
 ```
 
-https://alinakriutchenko.files.wordpress.com/2021/01/untitled.jpg
-
-![](https://alinakriutchenko.files.wordpress.com/2021/01/untitled.jpg | width=100)
-
-![Screenshot](1-4.png)
 
 
-![GitHub Logo](/images/1-4.png)
+![Screenshot](images/1-4.png)
 
-
-Format: ![Alt Text](url)
