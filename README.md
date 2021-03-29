@@ -13,7 +13,7 @@ CREATE TABLE F1_RESULTS_2020 (
     #Year INT(4) DEFAULT '2020'
 );
 ```
-If you later need to combine this table with tables from previous years. 
+If you later need to combine this table with table from previous years. 
 In this case avoid Year column when insert values and it will be added automatically);
 
 ### Another way to define primary key:
@@ -95,7 +95,7 @@ SELECT * FROM F1_RESULTS_2020;
 ![Screenshot](/Images/1-10.png)
 ### If need to delete the first row
 ```
-FROM F1_RESULTS_2020 WHERE Place = 1;
+DELETE FROM F1_RESULTS_2020 WHERE Place = 1;
 ```
 ### Replace values in the table
 ```
