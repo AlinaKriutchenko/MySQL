@@ -17,7 +17,13 @@ CREATE TABLE F1_RESULTS_2020 (
 
 
 
+![Screenshot](/Images/1-4.png)
 ![Screenshot](/Images/1-5.png)
+![Screenshot](/Images/1-7.png)
+![Screenshot](/Images/1-8.png)
+![Screenshot](/Images/1-9.png)
+![Screenshot](/Images/1-10.png)
+![Screenshot](/Images/untitled.jpg)
 
 
 
