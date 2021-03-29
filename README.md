@@ -17,7 +17,7 @@ CREATE TABLE F1_RESULTS_2020 (
 
 
 
-![Screenshot](1-4.png)
+![Screenshot](/Images/1-5.png)
 
 
 
